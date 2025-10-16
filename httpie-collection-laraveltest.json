@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "format": "httpie",
+    "version": "1.0.0",
+    "contentType": "collection",
+    "schema": "https://schema.httpie.io/1.0.0.json",
+    "docs": "https://httpie.io/r/help/export-from-httpie",
+    "source": "HTTPie Desktop 2025.2.0"
+  },
+  "entry": {
+    "name": "LaravelTest",
+    "icon": {
+      "name": "flame",
+      "color": "red"
+    },
+    "auth": {
+      "type": "bearer",
+      "credentials": {
+        "username": "",
+        "password": "a015ef47-8031-4a33-bcfe-8fc5a20f2592"
+      },
+      "target": "headers"
+    },
+    "requests": [
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/articlesByIDs",
+        "method": "GET",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": false
+          }
+        ],
+        "queryParams": [
+          {
+            "name": "page",
+            "value": "2",
+            "enabled": false
+          },
+          {
+            "name": "IDs[]",
+            "value": "1",
+            "enabled": true
+          },
+          {
+            "name": "IDs[]",
+            "value": "8",
+            "enabled": false
+          },
+          {
+            "name": "IDs[]",
+            "value": "10",
+            "enabled": false
+          }
+        ],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "none",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": []
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/articlesByCategory",
+        "method": "GET",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": true
+          }
+        ],
+        "queryParams": [
+          {
+            "name": "page",
+            "value": "2",
+            "enabled": false
+          },
+          {
+            "name": "categoryID",
+            "value": "2",
+            "enabled": true
+          },
+          {
+            "name": "includeSubCategories",
+            "value": "N",
+            "enabled": true
+          }
+        ],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "none",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": []
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/articlesByTitle",
+        "method": "GET",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": true
+          }
+        ],
+        "queryParams": [
+          {
+            "name": "page",
+            "value": "2",
+            "enabled": false
+          },
+          {
+            "name": "exact",
+            "value": "N",
+            "enabled": true
+          },
+          {
+            "name": "title",
+            "value": "Tes",
+            "enabled": true
+          },
+          {
+            "name": "IDs[]",
+            "value": "10",
+            "enabled": false
+          }
+        ],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "none",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": []
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/articlesByAuthor",
+        "method": "GET",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": false
+          }
+        ],
+        "queryParams": [
+          {
+            "name": "page",
+            "value": "2",
+            "enabled": false
+          },
+          {
+            "name": "authorID",
+            "value": "1",
+            "enabled": true
+          }
+        ],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "none",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": []
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/authorsList",
+        "method": "GET",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": false
+          }
+        ],
+        "queryParams": [
+          {
+            "name": "page",
+            "value": "1",
+            "enabled": true
+          }
+        ],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "none",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": []
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/createArticle",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": false
+          }
+        ],
+        "queryParams": [],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "form",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": [
+              {
+                "name": "authorID",
+                "value": "3",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "title",
+                "value": "Test12",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "anonse",
+                "value": "anonse1",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "text",
+                "value": "woefiweoighweiojrwoeighwioejfioew",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "categoryIDs[]",
+                "value": "9",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "categoryIDs[]",
+                "value": "8",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "categoryIDs[]",
+                "value": "11",
+                "enabled": true,
+                "type": "text"
+              }
+            ]
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/createCategory",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": false
+          }
+        ],
+        "queryParams": [],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "form",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": [
+              {
+                "name": "name",
+                "value": "Машины3",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "parentID",
+                "value": "0",
+                "enabled": false,
+                "type": "text"
+              }
+            ]
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/createAuthor",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a014bbee-589a-44b8-b561-d118b1aa5c9e",
+            "enabled": false
+          }
+        ],
+        "queryParams": [],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "form",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": true,
+            "fields": [
+              {
+                "name": "fullName",
+                "value": "Зубенко Михаил Петрович",
+                "enabled": true,
+                "type": "text"
+              },
+              {
+                "name": "email",
+                "value": "mafioznik4@mail.ru",
+                "enabled": false,
+                "type": "text"
+              },
+              {
+                "name": "avatar",
+                "value": "",
+                "enabled": true,
+                "type": "file"
+              }
+            ]
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      },
+      {
+        "name": "",
+        "url": "http://localhost:8000/v1/createToken",
+        "method": "POST",
+        "headers": [
+          {
+            "name": "Authorization",
+            "value": "Bearer a01453a8-f4f6-4e06-a62b-c3e136e96e61",
+            "enabled": false
+          }
+        ],
+        "queryParams": [],
+        "pathParams": [],
+        "auth": {
+          "type": "inherited"
+        },
+        "body": {
+          "type": "form",
+          "file": {
+            "name": ""
+          },
+          "text": {
+            "value": "",
+            "format": "application/json"
+          },
+          "form": {
+            "isMultipart": false,
+            "fields": [
+              {
+                "name": "name",
+                "value": "Дороги",
+                "enabled": false,
+                "type": "text"
+              }
+            ]
+          },
+          "graphql": {
+            "query": "",
+            "variables": ""
+          }
+        }
+      }
+    ]
+  }
+}
